@@ -1,0 +1,13 @@
+${vcard.photo} 
+${vcard.title1}
+${vcard.title2}
+${vcard.name}
+${vcard.nameEng}
+${vcard.company}
+${vcard.content1}
+${vcard.content2}
+${vcard.web}
+tel:${vcard.tel}
+mailto:${vcard.mail}
+${vcard.line}
+${vcard.share}

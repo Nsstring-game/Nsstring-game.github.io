@@ -1,0 +1,273 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/BNIcards/materials0519/dots.png",
+        "size": "300px",
+        "aspectRatio": "3:4",
+        "margin": "none",
+        "aspectMode": "fit",
+        "position": "absolute"
+      },
+      {
+        "type": "image",
+        "url": "${vcard.photo}",
+        "size": "300px",
+        "aspectRatio": "3:4",
+        "margin": "none",
+        "aspectMode": "fit",
+        "position": "absolute",
+        "offsetStart": "0px",
+        "offsetTop": "0px"
+      },
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/BNIcards/materials0519/background.png",
+        "size": "300px",
+        "aspectRatio": "3:4",
+        "margin": "none",
+        "aspectMode": "fit",
+        "position": "absolute"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://nsstring-game.github.io/BNIcards/materials0519/logo.png",
+            "align": "start",
+            "gravity": "top",
+            "aspectRatio": "5:1",
+            "size": "150px",
+            "offsetTop": "12px",
+            "position": "absolute",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://bnitaichungcity.com.tw/%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8D%80-taichung-city-%E6%B9%A7%E7%BF%BC/zh-TW/index"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.title1}",
+                    "size": "12px",
+                    "color": "#FFFFFF",
+                    "weight": "bold"
+                  }
+                ],
+                "position": "absolute",
+                "spacing": "none",
+                "margin": "none",
+                "offsetTop": "2px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.title2}",
+                    "size": "12px",
+                    "color": "#000000",
+                    "weight": "bold"
+                  }
+                ],
+                "position": "absolute",
+                "width": "120px",
+                "height": "20px",
+                "offsetTop": "30px",
+                "paddingAll": "none",
+                "spacing": "none",
+                "margin": "none"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.name}",
+                    "color": "#FFFFFF",
+                    "size": "20px",
+                    "weight": "bold"
+                  }
+                ],
+                "position": "absolute",
+                "spacing": "none",
+                "margin": "none",
+                "offsetTop": "60px",
+                "paddingAll": "none"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.nameEng}",
+                    "color": "#FFFFFF",
+                    "size": "12px",
+                    "weight": "bold"
+                  }
+                ],
+                "position": "absolute",
+                "offsetTop": "85px"
+              }
+            ],
+            "position": "absolute",
+            "width": "120px",
+            "height": "105px",
+            "offsetTop": "70px",
+            "offsetStart": "28px",
+            "paddingAll": "none",
+            "spacing": "none",
+            "margin": "none"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "${vcard.company}",
+                "color": "#FFFFFF",
+                "weight": "bold",
+                "align": "center",
+                "gravity": "center",
+                "size": "20px"
+              },
+              {
+                "type": "text",
+                "text": "${vcard.content1}",
+                "color": "#FFFFFF",
+                "weight": "bold",
+                "align": "center",
+                "gravity": "center",
+                "size": "12px",
+                "margin": "8px"
+              },
+              {
+                "type": "text",
+                "color": "#FFFFFF",
+                "weight": "bold",
+                "align": "center",
+                "gravity": "center",
+                "size": "12px",
+                "text": "${vcard.content2}"
+              }
+            ],
+            "position": "absolute",
+            "offsetTop": "175px",
+            "height": "85px",
+            "width": "300px",
+            "justifyContent": "center",
+            "paddingTop": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://nsstring-game.github.io/BNIcards/materials0519/info.png",
+                "aspectRatio": "5:1",
+                "size": "200px",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "${vcard.web}"
+                }
+              }
+            ],
+            "position": "absolute",
+            "width": "300px",
+            "offsetTop": "260px",
+            "height": "60px",
+            "justifyContent": "center"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://nsstring-game.github.io/BNIcards/materials0519/tel.png",
+                "size": "60px",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "tel:${vcard.tel}"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://nsstring-game.github.io/BNIcards/materials0519/mail.png",
+                "size": "60px",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "mailto:${vcard.mail}"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://nsstring-game.github.io/BNIcards/materials0519/line.png",
+                "size": "60px",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "${vcard.line}"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://nsstring-game.github.io/BNIcards/materials0519/share.png",
+                "size": "60px",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "${vcard.share}"
+                }
+              }
+            ],
+            "offsetTop": "320px",
+            "height": "60px",
+            "width": "300px",
+            "alignItems": "center",
+            "paddingStart": "xxl",
+            "paddingEnd": "xxl",
+            "paddingBottom": "md"
+          }
+        ],
+        "position": "absolute",
+        "width": "300px",
+        "height": "380px",
+        "paddingAll": "none",
+        "spacing": "none",
+        "margin": "none",
+        "offsetTop": "none",
+        "offsetStart": "none"
+      }
+    ],
+    "width": "300px",
+    "height": "380px",
+    "margin": "none",
+    "position": "relative",
+    "spacing": "none",
+    "paddingAll": "none"
+  }
+}
