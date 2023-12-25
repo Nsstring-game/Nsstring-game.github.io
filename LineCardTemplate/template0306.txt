@@ -1,0 +1,184 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "${vcard.pic}",
+                "aspectMode": "cover",
+                "aspectRatio": "1:2",
+                "size": "full",
+                "gravity": "bottom"
+              }
+            ],
+            "paddingAll": "21px",
+            "position": "relative",
+            "maxHeight": "230px",
+            "maxWidth": "150px",
+            "paddingBottom": "none"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.name}",
+                    "size": "32px",
+                    "weight": "bold",
+                    "align": "start",
+                    "color": "#FFFFFF",
+                    "flex": 3
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/1828/1828874.png",
+                    "size": "xxs",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${_.trim(vcard.resend)}"
+                    },
+                    "aspectMode": "cover",
+                    "flex": 1
+                  }
+                ],
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "maxHeight": "50px",
+                "height": "50px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.company}",
+                    "size": "20px",
+                    "action": {
+                      "type": "uri",
+                      "uri": "${_.trim(vcard.maps)}"
+                    },
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${vcard.title}",
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${_.trim(vcard.tel)}",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:${_.trim(vcard.tel)}"
+                    },
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "spacing": "none",
+                "justifyContent": "space-between",
+                "paddingAll": "none",
+                "maxHeight": "100px",
+                "height": "100px",
+                "paddingBottom": "lg"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "image",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.fburl}"
+                    },
+                    "align": "center",
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "url": "https://cdn-icons-png.flaticon.com/512/2504/2504903.png",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/2504/2504918.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.igurl}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/9073/9073328.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "mailto:${_.trim(vcard.email)}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/4302/4302080.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.url}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  }
+                ],
+                "spacing": "md",
+                "paddingAll": "md",
+                "alignItems": "center",
+                "paddingStart": "none",
+                "justifyContent": "space-between"
+              }
+            ],
+            "spacing": "none",
+            "paddingAll": "none",
+            "paddingTop": "md",
+            "paddingBottom": "md"
+          }
+        ],
+        "position": "relative"
+      }
+    ],
+    "position": "relative",
+    "paddingAll": "none"
+  },
+  "size": "giga",
+  "styles": {
+    "body": {
+      "backgroundColor": "#393f4c"
+    }
+  }
+}

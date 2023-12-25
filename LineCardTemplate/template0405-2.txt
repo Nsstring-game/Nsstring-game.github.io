@@ -1,0 +1,311 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                "size": "full",
+                "aspectMode": "cover",
+                "aspectRatio": "3:2"
+              }
+            ],
+            "position": "relative",
+            "height": "200px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                    "size": "30px",
+                    "aspectMode": "cover"
+                  },
+                  {
+                    "type": "text",
+                    "text": "電話",
+                    "color": "#333333"
+                  }
+                ],
+                "height": "70px",
+                "alignItems": "center",
+                "paddingAll": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://linecorp.com/"
+                }
+              },
+              {
+                "type": "separator",
+                "margin": "none",
+                "color": "#000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                    "aspectMode": "cover",
+                    "size": "30px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "信箱",
+                    "color": "#333333"
+                  }
+                ],
+                "height": "70px",
+                "alignItems": "center",
+                "paddingAll": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://linecorp.com/"
+                }
+              }
+            ],
+            "height": "75px",
+            "paddingAll": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "超級工具人",
+                    "size": "12px",
+                    "offsetStart": "lg",
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "height": "20px",
+                "width": "100px",
+                "backgroundColor": "#FBB03B",
+                "justifyContent": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "吳昌軒",
+                    "size": "24px",
+                    "offsetStart": "lg",
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "height": "35px",
+                "width": "130px",
+                "backgroundColor": "#1685A9",
+                "justifyContent": "center"
+              }
+            ],
+            "position": "absolute",
+            "height": "60px",
+            "offsetBottom": "65px",
+            "width": "130px",
+            "justifyContent": "space-between"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                "aspectMode": "cover",
+                "size": "xs",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://linecorp.com/"
+                }
+              }
+            ],
+            "position": "absolute",
+            "paddingAll": "xxl"
+          }
+        ],
+        "width": "300px",
+        "height": "275px",
+        "position": "relative",
+        "justifyContent": "space-between"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                    "size": "20px",
+                    "aspectMode": "cover",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "參觀我的網站",
+                    "flex": 7,
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "alignItems": "center",
+                "justifyContent": "center",
+                "width": "150px",
+                "paddingAll": "md",
+                "backgroundColor": "#1685A9"
+              }
+            ],
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://linecorp.com/"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "清星堂企劃有限公司",
+                    "weight": "bold",
+                    "size": "18px",
+                    "color": "#333333"
+                  }
+                ],
+                "alignItems": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "數位設計 / 數位講座 / 活動規劃",
+                    "size": "12px",
+                    "color": "#333333"
+                  },
+                  {
+                    "type": "text",
+                    "text": "平面設計 / 網站設計 / 遊戲設計",
+                    "size": "12px",
+                    "color": "#333333"
+                  }
+                ],
+                "alignItems": "center",
+                "height": "32px",
+                "justifyContent": "space-between"
+              }
+            ],
+            "justifyContent": "space-between",
+            "height": "60px"
+          }
+        ],
+        "width": "300px",
+        "height": "140px",
+        "alignItems": "center",
+        "justifyContent": "space-evenly"
+      }
+    ],
+    "height": "415px",
+    "width": "300px",
+    "position": "relative",
+    "paddingAll": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "aspectMode": "cover",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "aspectMode": "cover",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "aspectMode": "cover",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "aspectMode": "cover",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      }
+    ],
+    "height": "65px",
+    "paddingAll": "none",
+    "alignItems": "center"
+  }
+}

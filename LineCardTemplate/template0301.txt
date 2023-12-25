@@ -1,0 +1,180 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "${vcard.pic}",
+                "aspectMode": "cover",
+                "aspectRatio": "3:5",
+                "size": "full"
+              }
+            ],
+            "paddingAll": "21px",
+            "position": "relative",
+            "maxHeight": "200px",
+            "maxWidth": "150px",
+            "paddingBottom": "none"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.name}",
+                    "size": "30px",
+                    "weight": "bold",
+                    "align": "start",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "image",
+                    "url": "${vcard.logo}",
+                    "size": "xxs",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${_.trim(vcard.maps)}"
+                    },
+                    "aspectMode": "cover"
+                  }
+                ],
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "maxHeight": "40px",
+                "height": "40px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.company}",
+                    "size": "20px",
+                    "action": {
+                      "type": "uri",
+                      "uri": "${_.trim(vcard.maps)}"
+                    },
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${vcard.title}",
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${_.trim(vcard.tel)}",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:${_.trim(vcard.tel)}"
+                    },
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "spacing": "none",
+                "justifyContent": "space-between",
+                "paddingAll": "none",
+                "maxHeight": "80px",
+                "height": "80px"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "image",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.fburl}"
+                    },
+                    "align": "center",
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "url": "https://cdn-icons-png.flaticon.com/512/2504/2504903.png",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/2504/2504918.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.igurl}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/9073/9073328.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "mailto:${_.trim(vcard.email)}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  },
+                  {
+                    "type": "image",
+                    "url": "https://cdn-icons-png.flaticon.com/512/4302/4302080.png",
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": "${vcard.url}"
+                    },
+                    "gravity": "center",
+                    "aspectMode": "cover",
+                    "size": "xxs"
+                  }
+                ],
+                "spacing": "md",
+                "paddingAll": "md",
+                "alignItems": "center",
+                "paddingStart": "none",
+                "justifyContent": "space-between"
+              }
+            ],
+            "spacing": "none",
+            "paddingAll": "none",
+            "paddingTop": "md",
+            "paddingBottom": "md"
+          }
+        ],
+        "position": "relative"
+      }
+    ],
+    "position": "relative",
+    "paddingAll": "none"
+  },
+  "size": "giga",
+  "styles": {
+    "body": {
+      "backgroundColor": "#393f4c"
+    }
+  }
+}

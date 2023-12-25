@@ -1,0 +1,313 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "${vcard.pic}",
+                "size": "full",
+                "aspectMode": "cover",
+                "aspectRatio": "3:2"
+              }
+            ],
+            "position": "relative",
+            "height": "200px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/tel.png",
+                    "size": "30px",
+                    "aspectMode": "fit"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${vcard.tel}",
+                    "color": "#333333",
+                    "size": "10px"
+                  }
+                ],
+                "height": "70px",
+                "alignItems": "center",
+                "paddingAll": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "tel:${vcard.tel}"
+                }
+              },
+              {
+                "type": "separator",
+                "margin": "none",
+                "color": "#000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/mail.png",
+                    "aspectMode": "fit",
+                    "size": "30px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${vcard.mail}",
+                    "color": "#333333",
+                    "size": "10px"
+                  }
+                ],
+                "height": "70px",
+                "alignItems": "center",
+                "paddingAll": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "mailto:${vcard.mail}"
+                }
+              }
+            ],
+            "height": "75px",
+            "paddingAll": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.title}",
+                    "size": "12px",
+                    "offsetStart": "lg",
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "height": "20px",
+                "width": "100px",
+                "backgroundColor": "#FBB03B",
+                "justifyContent": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.name}",
+                    "size": "24px",
+                    "offsetStart": "lg",
+                    "weight": "bold",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "height": "35px",
+                "width": "130px",
+                "backgroundColor": "#1685A9",
+                "justifyContent": "center"
+              }
+            ],
+            "position": "absolute",
+            "height": "60px",
+            "offsetBottom": "65px",
+            "width": "130px",
+            "justifyContent": "space-between"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "${vcard.companyIcon}",
+                "aspectMode": "cover",
+                "size": "xs",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "${vcard.companyWeb}"
+                }
+              }
+            ],
+            "position": "absolute",
+            "paddingAll": "xxl"
+          }
+        ],
+        "width": "300px",
+        "height": "275px",
+        "position": "relative",
+        "justifyContent": "space-between"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/website.png",
+                    "size": "20px",
+                    "aspectMode": "cover",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "參觀我的網站",
+                    "flex": 7,
+                    "size": "16px",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "alignItems": "center",
+                "justifyContent": "center",
+                "width": "150px",
+                "paddingAll": "md",
+                "backgroundColor": "#1685A9"
+              }
+            ],
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "${vcard.selfWeb}"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.company}",
+                    "weight": "bold",
+                    "size": "18px",
+                    "color": "#333333"
+                  }
+                ],
+                "alignItems": "center"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "${vcard.introA}",
+                    "size": "12px",
+                    "color": "#333333"
+                  },
+                  {
+                    "type": "text",
+                    "text": "${vcard.introB}",
+                    "size": "12px",
+                    "color": "#333333"
+                  }
+                ],
+                "alignItems": "center",
+                "height": "32px",
+                "justifyContent": "space-between"
+              }
+            ],
+            "justifyContent": "space-between",
+            "height": "60px"
+          }
+        ],
+        "width": "300px",
+        "height": "140px",
+        "alignItems": "center",
+        "justifyContent": "space-evenly"
+      }
+    ],
+    "height": "415px",
+    "width": "300px",
+    "position": "relative",
+    "paddingAll": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/FB.png",
+        "aspectMode": "fit",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "${vcard.facebook}"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/line.png",
+        "aspectMode": "fit",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "${vcard.line}"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/IG.png",
+        "aspectMode": "fit",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "${vcard.instagram}"
+        }
+      },
+      {
+        "type": "image",
+        "url": "https://nsstring-game.github.io/LineCardTemplate/template0407icon/resend.png",
+        "aspectMode": "fit",
+        "size": "30px",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "${vcard.resend}"
+        }
+      }
+    ],
+    "height": "65px",
+    "paddingAll": "none",
+    "alignItems": "center"
+  }
+}
